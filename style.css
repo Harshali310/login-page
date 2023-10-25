@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border:border-box;
+    font-family:Arial;
+    color:white;
+    background-image: url("b.avif");
+}
+.navbar{
+    height:70px;
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.navbar a:hover{
+    color: rgb(241, 117, 15);
+}
+.logo1{
+    height: 145px;
+    width: 125px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("webvl-logos_white (1).png");
+}
+.nav-2 ol{
+    display: flex;
+    height: 70px;
+    width:60%;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-2 ol li{
+    list-style: none;
+    margin-left: 100px;
+}
+.nav-2 a{
+    text-decoration: none;
+}
+.nav-3{
+    display: flex;
+    width: 25%;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 1rem;
+}
+.search-box{
+    border:1.2px solid rgb(241, 117, 15);
+    border-radius: 4px;
+    margin: 5px;
+    height: 35px;
+    font-size: 20px;
+}
+.search{
+    font-size: 20px;
+    background: rgb(241, 117, 15);
+}
+.content{
+    margin-top: 100px;
+    margin-left: 35px;
+    /* height: auto;
+    width: auto; */
+
+}
+.content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+
+}
+.h12{
+    color:  rgb(241, 117, 15); 
+}
+.content-para{
+    margin-top: 9px;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    /* cursor:pointer; */
+}
+.content-button{
+    height: 35px;
+    width: 100px;
+    font-size: 1rem;
+    margin-top: 15px;
+    background: rgb(241, 117, 15);
+} 
+.content-button:hover{
+    background-color: white;
+    color:black;
+}
+
+
+.form{
+    height: 200px;
+    width:200px;
+    background: linear-gradient(to top,rgb(1, 14, 22),rgb(41, 40, 40));
+    /* background: linear-gradient(to top,rgb(16, 138, 214),rgb(205, 26, 26)); */
+
+    position: absolute;
+    top: 190px;
+    left: 1070px;
+    border-radius: 10px;
+    padding: 25px;
+}
+/* .form:hover{
+    gradiant: orange;
+} */
+.form h2{
+    width:150px;
+    text-align: center;
+    color: orange;
+    /* background:rgb(251, 176, 141); */
+    background: transparent;
+    margin: 13px;
+    border: 2px solid orange;
+}
+.form input{
+    width: 150px;
+    background: transparent;
+    /* color: black; */
+    border-top:0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid rgb(239, 108, 7);
+    margin: 5px;
+    letter-spacing: 1px;
+}
+
+::placeholder{
+    color: white;
+}
+.form-button{
+    width:120px;
+    background: transparent;
+    border:none;
+    margin:2px;
+    padding: 0.75px;
+}
+.form-button:hover{
+    /* background: white; */
+    color: orangered;
+}
+.form .form-button a{
+    text-decoration: none;
+    background: transparent;
+    text-align: center;
+    margin-left: 50px;
+
+}
+
+.form .link{
+    text-align: center;
+    margin: 2px;
+    background: transparent;
+}
+ .sign-in {
+    text-align: center;
+    background: transparent;
+}
+.form .sign-in a{
+    text-decoration: none;
+    color: rgb(255, 136, 0);
+    text-align: center;
+    background: transparent;
+    font-weight: 700px;
+    margin: 2px;
+}
+.form .sign-in a:hover {
+    color: white;
+}
+.loginwith{
+    text-align: center;
+    background: transparent;
+    margin: 2px;
+
+}
+.icon{
+    background: transparent;
+    margin: 2px;
+
+}
+.icon a{
+    display: inline;
+    background: transparent;
+    margin-left: 9px;
+    padding: 5px;
+    /* text-align: center; */
+    text-decoration: none;
+}
+.icon :hover{
+    color: orange;
+}
